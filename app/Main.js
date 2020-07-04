@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom'
 // Our components
 import Header from './components/Header'
 import HomeGuest from './components/HomeGuest'
+import About from './components/About'
+import Terms from './components/Terms'
 import Footer from './components/Footer'
 
 function Main() {
