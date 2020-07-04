@@ -13,6 +13,7 @@ module.exports = {
     port: 3000,
     contentBase: path.join(__dirname, 'app'),
     hot: true,
+    // tell server to always give us root when requesting different routes
     historyApiFallback: { index: 'index.html' }
   },
   module: {
