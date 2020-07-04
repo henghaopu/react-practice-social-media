@@ -10,3 +10,6 @@ function App() {
 }
 
 ReactDOM.render(<App />, document.querySelector('#app'))
+
+// HMR: load js asynchronously without refreshing the page
+if (module.hot) module.hot.accept()
