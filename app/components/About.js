@@ -1,14 +1,9 @@
-import React, { useEffect } from 'react'
-import Container from './Container'
+import React from 'react'
+import Page from './Page'
 
 export default function About() {
-  useEffect(() => {
-    document.title = 'About Us | Social Media'
-    window.scrollTo(0, 0)
-  }, [])
-
   return (
-    <Container>
+    <Page title='About Us'>
       <h2>About Us</h2>
       <p className='lead text-muted'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
@@ -30,6 +25,6 @@ export default function About() {
         nobis provident quo dolorum sapiente temporibus facere non repellendus
         consequatur cupiditate!
       </p>
-    </Container>
+    </Page>
   )
 }
