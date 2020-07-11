@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Container from './Container'
 
 export default function About() {
+  useEffect(() => {
+    document.title = 'About Us | Social Media'
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <Container>
       <h2>About Us</h2>
